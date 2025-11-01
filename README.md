@@ -16,10 +16,12 @@ Capture live network packets and identify basic protocols and traffic types.
 7. Export the capture as a .pcap file.
 8. Summarize your findings and packet details.
 
+## Table of contents:
+
 ---
 
 ## Installing Wireshark
-- ****
+- **Go to https://www.wireshark.org/download.html**
 
 ![Alt Text](images/SampleEmail.PNG)
 
