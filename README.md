@@ -22,12 +22,15 @@ Capture live network packets and identify basic protocols and traffic types.
 
 ## Installing Wireshark
 - **Go to https://www.wireshark.org/download.html**
+- **Download and install Wireshark for macOS (or Windows/Linux if applicable)**
+- **To verify installation, open terminal and run:**
+    - wireshark --version
 
-![Alt Text](images/SampleEmail.PNG)
+![Alt Text](images/InstallVerification.PNG)
 
 ---
 
-
+## Capturing packets
 
 ---
 
