@@ -26,7 +26,7 @@ Capture live network packets and identify basic protocols and traffic types.
 - **To verify installation, open terminal and run:**
     - wireshark --version
 
-![Alt Text](images/InstallVerification.PNG)
+![Alt Text](images/InstallVerify.PNG)
 
 ---
 
