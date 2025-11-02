@@ -37,7 +37,9 @@ Capture live network packets and identify basic protocols and traffic types.
 1. Open Wireshark 
 ![Alt text](images/wireshark.PNG)
 
-2. aa
+2. Start capturing
+    - In Wireshark, double-click the active interface (usually en0).
+    - Wireshark will immediately start showing packets scrolling live, that's our network traffic being captured in real time. 
 
 ---
 
