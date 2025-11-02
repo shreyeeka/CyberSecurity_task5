@@ -44,21 +44,26 @@ Capture live network packets and identify basic protocols and traffic types.
 ### 1. Open Wireshark 
 ![Alt text](images/wireshark.PNG)
 
+
 ### 2. Start capturing Active Network Interface
 - In Wireshark, double-click the active interface (usually en0).
 - Wireshark will immediately start showing packets scrolling live, that's our network traffic being captured in real time.
 
 ![Alt text](images/active_interface.PNG)
 
+
 ### 3. Live Packet Capture
 - While capture is running, create some network activity:
    1. Open a few websites (e.g, google.com, youtube.com)
    2. Or run a ping command as
       - ping google.com
+
 ![Alt text](images/ping.PNG)
 
+- Then, apply 'ip.addr == 103.102.166.224' (i.e, the ip of wikipedia.org) 
 ![Alt text](images/capture_packets.PNG)
-        
+
+
 ### 4. Protocol filter
 - Applied 'dns' filter to view DNS traffic only
 ![Alt text](images/filtered_dns.PNG)
@@ -82,6 +87,15 @@ Capture live network packets and identify basic protocols and traffic types.
 ---
 
 ### Findings and Summary
+- During the Wireshark packet capture, multiple types of network traffic were observed while browsing websites and running basic network commands.
+- The analysis revealed communication between my computer and several external servers, showing how data travels through various layers of the TCP/IP model.
+- Wireshark successfully captured live network traffic on the active Wi-Fi interface.
+
+- **🔍 Key Findings:**
+- DNS Queries: The system sent DNS requests to resolve domain names (e.g., google.com) into IP addresses. This confirmed that name resolution occurs before HTTP communication.
+- TCP Handshake: The three-way handshake process (`SYN`, `SYN-ACK`, `ACK`) was visible in the TCP streams, verifying connection establishment between devices.
+- ICMP Packets: Ping (ICMP Echo Request and Reply) packets were observed when testing connectivity, confirming network responsiveness.
+- Packet Details: Each packet contained Ethernet, IP, and transport-layer headers, helping visualize encapsulation in real time.
 
 ---
 
