@@ -17,10 +17,12 @@ Capture live network packets and identify basic protocols and traffic types.
 8. Summarize your findings and packet details.
 
 ## Table of contents:
+- [Objective](#objective)
+- [Install Wireshark](#install-wireshark)
 
 ---
 
-## Installing Wireshark
+## Install Wireshark
 - **Go to https://www.wireshark.org/download.html**
 - **Download and install Wireshark for macOS (or Windows/Linux if applicable)**
 - **To verify installation, open terminal and run:**
