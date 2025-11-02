@@ -61,7 +61,8 @@ Capture live network packets and identify basic protocols and traffic types.
         ![Alt text](images/ping.PNG)
 
 - Then, apply 'ip.addr == 103.102.166.224' (i.e, the ip of wikipedia.org) 
-![Alt text](images/capture_packets.PNG)
+
+  ![Alt text](images/capture_packets.PNG)
 
 
 ### 4. Protocol filter
@@ -94,7 +95,7 @@ Capture live network packets and identify basic protocols and traffic types.
 - Wireshark successfully captured live network traffic on the active Wi-Fi interface.
 
 
-- **🔍 Key Findings:**
+- <h4>🔍 Key Findings:</h4>
 1. DNS Queries: The system sent DNS requests to resolve domain names (e.g., google.com) into IP addresses. This confirmed that name resolution occurs before HTTP communication.
 2. TCP Handshake: The three-way handshake process (`SYN`, `SYN-ACK`, `ACK`) was visible in the TCP streams, verifying connection establishment between devices.
 3. ICMP Packets: Ping (ICMP Echo Request and Reply) packets were observed when testing connectivity, confirming network responsiveness.
