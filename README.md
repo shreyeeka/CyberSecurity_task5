@@ -95,7 +95,7 @@ Capture live network packets and identify basic protocols and traffic types.
 - Wireshark successfully captured live network traffic on the active Wi-Fi interface.
 
 
-<h4>🔍 Key Findings:</h4>
+- **<h4>🔍 Key Findings:</h4>**
 1. DNS Queries: The system sent DNS requests to resolve domain names (e.g., google.com) into IP addresses. This confirmed that name resolution occurs before HTTP communication.
 2. TCP Handshake: The three-way handshake process (`SYN`, `SYN-ACK`, `ACK`) was visible in the TCP streams, verifying connection establishment between devices.
 3. ICMP Packets: Ping (ICMP Echo Request and Reply) packets were observed when testing connectivity, confirming network responsiveness.
