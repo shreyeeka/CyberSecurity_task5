@@ -15,7 +15,7 @@ Capture live network packets and identify basic protocols and traffic types.
     - [3. Live Packet Capture](#3-live-packet-capture)
     - [4. Protocol filter](#4-protocol-filter) 
     - [5. Stop the capture](#5-stop-the-capture)
-- [Save capture file](#save-capture-file)
+- [Save capture file (.pcap file)](#save-capture-file-pcap-file)
 - [Findings and Summary](#findings-and-summary)
 
 ## Guide
@@ -67,7 +67,7 @@ Capture live network packets and identify basic protocols and traffic types.
 
 ---
 
-## Save capture file
+## Save capture file (.pcap file)
 - File: 
 
 ---
