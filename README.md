@@ -89,13 +89,13 @@ Capture live network packets and identify basic protocols and traffic types.
 
 ---
 
-### Findings and Summary
+## Findings and Summary
 - During the Wireshark packet capture, multiple types of network traffic were observed while browsing websites and running basic network commands.
 - The analysis revealed communication between my computer and several external servers, showing how data travels through various layers of the TCP/IP model.
 - Wireshark successfully captured live network traffic on the active Wi-Fi interface.
 
 
-- **<h4>🔍 Key Findings:</h4>**
+### 🔍 Key Findings:
 1. DNS Queries: The system sent DNS requests to resolve domain names (e.g., google.com) into IP addresses. This confirmed that name resolution occurs before HTTP communication.
 2. TCP Handshake: The three-way handshake process (`SYN`, `SYN-ACK`, `ACK`) was visible in the TCP streams, verifying connection establishment between devices.
 3. ICMP Packets: Ping (ICMP Echo Request and Reply) packets were observed when testing connectivity, confirming network responsiveness.
