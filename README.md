@@ -10,8 +10,8 @@ Capture live network packets and identify basic protocols and traffic types.
 - [Objective](#objective)
 - [Install Wireshark](#install-wireshark)
 - [Capturing packets](#capturing-packets)
-    - [Open Wireshark](#open-wireshark)
-    - [Start capturing](#start-capturing) 
+    - [1. Open Wireshark](#1-open-wireshark)
+    - [2. Start capturing](#2-start-capturing) 
 
 ## Guide
 1. Install Wireshark.
