@@ -11,7 +11,12 @@ Capture live network packets and identify basic protocols and traffic types.
 - [Install Wireshark](#install-wireshark)
 - [Capturing packets](#capturing-packets)
     - [1. Open Wireshark](#1-open-wireshark)
-    - [2. Start capturing](#2-start-capturing) 
+    - [2. Start capturing Active Network Interface](#2-start-capturing-active-network-interface)
+    - [3. Live Packet Capture](#3-live-packet-capture)
+    - [4. Protocol filter](#4-protocol-filter) 
+    - [5. Stop the capture](#5-stop-the-capture)
+- [Save capture file](#save-capture-file)
+- [Findings and Summary](#findings-and-summary)
 
 ## Guide
 1. Install Wireshark.
@@ -39,9 +44,35 @@ Capture live network packets and identify basic protocols and traffic types.
 ### 1. Open Wireshark 
 ![Alt text](images/wireshark.PNG)
 
-### 2. Start capturing
+### 2. Start capturing Active Network Interface
 - In Wireshark, double-click the active interface (usually en0).
-- Wireshark will immediately start showing packets scrolling live, that's our network traffic being captured in real time. 
+- Wireshark will immediately start showing packets scrolling live, that's our network traffic being captured in real time.
+
+![Alt text](image)
+
+### 3. Live Packet Capture
+- While capture is running, create some network activity:
+   1. Open a few websites (e.g, google.com, youtube.com)
+   2. Or run a ping command as
+      - ping google.com
+
+![Alt text]()
+        
+### 4. Protocol filter
+- 
+
+### 5. Stop the capture
+- After about 1 minute, click the red square (■) Stop button at the top.
+- We'll see all captured packets frozen in the list     
+
+---
+
+## Save capture file
+- File: 
+
+---
+
+### Findings and Summary
 
 ---
 
