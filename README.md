@@ -48,18 +48,27 @@ Capture live network packets and identify basic protocols and traffic types.
 - In Wireshark, double-click the active interface (usually en0).
 - Wireshark will immediately start showing packets scrolling live, that's our network traffic being captured in real time.
 
-![Alt text](image)
+![Alt text](images/active_interface.PNG)
 
 ### 3. Live Packet Capture
 - While capture is running, create some network activity:
    1. Open a few websites (e.g, google.com, youtube.com)
    2. Or run a ping command as
       - ping google.com
+![Alt text](images/ping.PNG)
 
-![Alt text]()
+![Alt text](images/capture_packets.PNG)
         
 ### 4. Protocol filter
-- 
+- Applied 'dns' filter to view DNS traffic only
+![Alt text](images/filtered_dns.PNG)
+
+- Applied 'tcp' filter to view TCP traffic only
+![Alt text](images/filtered_tcp.PNG)
+
+- Applied 'udp' filter to view UDP traffic only
+![Alt text](images/filtered_udp.PNG) 
+
 
 ### 5. Stop the capture
 - After about 1 minute, click the red square (■) Stop button at the top.
@@ -68,7 +77,7 @@ Capture live network packets and identify basic protocols and traffic types.
 ---
 
 ## Save capture file (.pcap file)
-- File: 
+- File: [Network_capture.pcap](NetworkCapture.pcapng)
 
 ---
 
