@@ -6,6 +6,11 @@ Capture live network packets and identify basic protocols and traffic types.
 ## Tools:
 - **[Wireshark](https://www.wireshark.org/download.html) (free)**
 
+## Table of contents:
+- [Objective](#objective)
+- [Install Wireshark](#install-wireshark)
+- [Capturing packets](#capturing-packets)
+
 ## Guide
 1. Install Wireshark.
 2. Start capturing on your active network interface.
@@ -15,10 +20,6 @@ Capture live network packets and identify basic protocols and traffic types.
 6. Identify at least 3 different protocols in the capture.
 7. Export the capture as a .pcap file.
 8. Summarize your findings and packet details.
-
-## Table of contents:
-- [Objective](#objective)
-- [Install Wireshark](#install-wireshark)
 
 ---
 
