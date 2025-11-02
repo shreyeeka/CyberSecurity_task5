@@ -35,8 +35,10 @@ Capture live network packets and identify basic protocols and traffic types.
 
 ## Capturing packets
 1. Open Wireshark 
-
 ![Alt text](images/wireshark.PNG)
+
+2. aa
+
 ---
 
 ## Outcome:
